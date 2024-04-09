@@ -64,6 +64,7 @@ cache: This operator allows you to view the cached version of a page. For exampl
 ![Screenshot (267)](https://github.com/abinayasangeetha/Enumeration/assets/119393675/bd0bbab0-98c7-467c-8fa6-3aa237c734c7)
 
 ## DNS Recon
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/a5399e02-31b5-4399-a2b6-3af5b2e526ac)
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -71,6 +72,8 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 
 ## dnsenum
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/93cd8155-aabf-4b59-a70a-d3e3c265ec32)
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/64f5f227-b5e0-406d-bcc2-aba3e38fe4a6)
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -83,13 +86,10 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-## Output
-![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/a5399e02-31b5-4399-a2b6-3af5b2e526ac)
-![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/93cd8155-aabf-4b59-a70a-d3e3c265ec32)
-![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/64f5f227-b5e0-406d-bcc2-aba3e38fe4a6)
-![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/2dfdae60-39ef-40c0-9f9a-3fe9e61fa177)
+
 
 ## smtp-user-enum
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/2dfdae60-39ef-40c0-9f9a-3fe9e61fa177)
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 select any username in the first column of the above file and check the same
