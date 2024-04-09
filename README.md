@@ -83,6 +83,11 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+## Output
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/a5399e02-31b5-4399-a2b6-3af5b2e526ac)
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/93cd8155-aabf-4b59-a70a-d3e3c265ec32)
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/64f5f227-b5e0-406d-bcc2-aba3e38fe4a6)
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/2dfdae60-39ef-40c0-9f9a-3fe9e61fa177)
 
 ## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -96,6 +101,7 @@ and issue appropriate commands
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
+![image](https://github.com/abinayasangeetha/Enumeration/assets/119393675/e4f109a4-8338-40e4-9c84-9001f89df56d)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
